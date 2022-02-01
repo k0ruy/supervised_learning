@@ -228,27 +228,27 @@ class Neuron:
 ###
 if __name__ == '__main__':
 
-    n_in = int(input('num input neurons: '))
-    n_hid = int(input('num hidden neurons: '))
-    n_out = int(input('num output neurons: '))
-
-    hid_w = list(map(float, input(f'hidden weights separated by space (0-1, you need 2^{n_hid} vals): ').split()))
-    out_w = list(map(float, input(f'output weights separated by space (0-1, you need 2^{n_hid} vals): ').split()))
-
-    hid_b = float(input('hidden layer bias: '))
-    out_b = float(input('output layer bias: '))
+    # n_in = int(input('num input neurons: '))
+    # n_hid = int(input('num hidden neurons: '))
+    # n_out = int(input('num output neurons: '))
+    #
+    # hid_w = list(map(float, input(f'hidden weights separated by space (0-1, you need 2^{n_hid} vals): ').split()))
+    # out_w = list(map(float, input(f'output weights separated by space (0-1, you need 2^{n_hid} vals): ').split()))
+    #
+    # hid_b = float(input('hidden layer bias: '))
+    # out_b = float(input('output layer bias: '))
 
     # Blog post example:
-    nn = NeuralNetwork(num_inputs=n_in,
-                       num_hidden=n_hid,
-                       num_outputs=n_out,
-                       hidden_layer_weights=hid_w,
-                       hidden_layer_bias=hid_b,
-                       output_layer_weights=out_w,
-                       output_layer_bias=out_b)
+    # nn = NeuralNetwork(num_inputs=n_in,
+    #                    num_hidden=n_hid,
+    #                    num_outputs=n_out,
+    #                    hidden_layer_weights=hid_w,
+    #                    hidden_layer_bias=hid_b,
+    #                    output_layer_weights=out_w,
+    #                    output_layer_bias=out_b)
 
-    # nn = NeuralNetwork(2, 2, 2, hidden_layer_weights=[0.15, 0.2, 0.25, 0.3], hidden_layer_bias=0.35,
-    #                    output_layer_weights=[0.4, 0.45, 0.5, 0.55], output_layer_bias=0.6)
+    nn = NeuralNetwork(2, 2, 2, hidden_layer_weights=[0.15, 0.2, 0.25, 0.3], hidden_layer_bias=0.35,
+                       output_layer_weights=[0.4, 0.45, 0.5, 0.55], output_layer_bias=0.6)
 
     in_val = [0.05, 0.1]
     out_val = [0.01, 0.99]

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9017f1-734c-4242-a2e8-073b6e28c789" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_NeuralNetworks/.ipynb_checkpoints/quiz_snippet-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/11_NeuralNetworks/nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_NeuralNetworks/nn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_NeuralNetworks/quiz_snippet.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +68,9 @@
       <updated>1642275962678</updated>
       <workItem from="1642275964036" duration="2069000" />
       <workItem from="1642278626905" duration="94000" />
+      <workItem from="1642449834429" duration="59000" />
+      <workItem from="1642543842915" duration="202000" />
+      <workItem from="1642551158670" duration="50000" />
     </task>
     <servers />
   </component>
@@ -72,6 +78,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/supervised_learning_git$nn.coverage" NAME="nn Coverage Results" MODIFIED="1642277768655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_NeuralNetworks" />
+    <SUITE FILE_PATH="coverage/supervised_learning_git$nn.coverage" NAME="nn Coverage Results" MODIFIED="1642449868839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_NeuralNetworks" />
   </component>
 </project>
